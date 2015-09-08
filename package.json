@@ -1,0 +1,17 @@
+{
+  "name": "midi-server",
+  "version": "0.1.0",
+  "description": "A MIDI server for cloud-connected MIDI players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "midi-node": "ccceeefff/midi-node",
+    "promise": "^7.0.4"
+  }
+}
